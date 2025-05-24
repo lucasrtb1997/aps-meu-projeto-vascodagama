@@ -1,0 +1,76 @@
+    #layout {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      padding: 20px;
+    }
+
+    .titulo-secao {
+      color: #000000;
+      border-bottom: 2px solid #000000;
+      padding-bottom: 5px;
+    }
+
+    #menu-principal {
+      background-color: #e6e6fa;
+      padding: 10px;
+      text-align: center;
+    }
+
+    #menu-principal ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    #menu-principal li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    #menu-principal a {
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+
+    .card {
+      background-color: #fff;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .mensagem {
+      background-color: #ffffff;
+      color: #000000;
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 15px;
+      font-weight: bold;
+    }
+
+    .botao {
+      background-color: #000000;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      text-transform: uppercase;
+    }
+
+    .botao:hover {
+      background-color: #840707;
+    }
+
+    footer {
+      background-color: #dcdcdc;
+      padding: 10px;
+      text-align: center;
+    }
+
+    aside {
+      background-color: #f5f5dc;
+      padding: 10px;
+      font-style: italic;
+    }

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>CRVG - QUE HONRA SER.</title>
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+ <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="layout" class="container">
+
+    <!-- Header -->
+    <header>
+      <h1 class="titulo-secao">Vasco da Gama - A história mais bonita do futebol</h1>
+      <p class="mensagem">Bem-vindo ao portal de notícias do Gigante da Colina!</p>
+    </header>
+
+    <!-- Navegação -->
+    <nav role="navigation" id="menu-principal ">
+  <button onclick="mostrarSecao('historia')" class="botao">História</button>
+  <button onclick="mostrarSecao('jogos')" class="botao">Próximos Jogos</button>
+  <button onclick="mostrarSecao('galeria')" class="botao">Galeria</button>
+  <button onclick="mostrarSecao('curiosidades')" class="botao">Curiosidades</button>
+    </nav>
+
+    <!-- Linha com 2 colunas: conteúdo + aside -->
+    <div class="row">
+      <!-- Conteúdo principal -->
+      <main class="col-md-8">
+        <section id="historia" class="card">
+          <h2 class="titulo-secao">História </h2>
+          <p><strong> Club de Regatas Vasco da Gama (Vasco) foi fundado em 21 de agosto de 1898 no Rio de Janeiro, inicialmente como um clube de remo. O nome foi escolhido em homenagem ao navegador português Vasco da Gama, comemorando 400 anos de sua viagem à Índia naquele ano. O Vasco se destacou por sua postura inclusiva e por grandes conquistas no futebol brasileiro.</strong></p>
+        </section>
+
+        <section id="galeria" class="card">
+          <h2 class="titulo-secao">Destaques</h2>
+          <figure>
+            <img src="20240228-135017-1-1-.jpg" alt="Vegetti" width="200">
+            <figcaption><strong>Pablo Vegetti - capitão e principal jogador do Vasco na temporada 2025.</strong></figcaption>
+          </figure>
+        </section>
+      </main>
+
+      <!-- Aside -->
+      <aside class="col-md-4">
+        <h3><strong>Curiosidades</strong></h3>
+        <p>O Vasco foi o primeiro clube a lutar contra o racismo no futebol brasileiro.</p>
+        <p>Em 1969 o Vasco sofreu o milésimo gol de Pelé. Em 2007, foi pelo Vasco que Romário marcou o seu milésimo gol.</p>
+        <p>Durante a campanha do título brasileiro de 1997, o Vasco venceu o União São João por 6 x 0 em São Januário. Edmundo marcou todos os gols da partida.</p>
+        <p>É do Vasco o maior artilheiro da história do campeonato brasileiro: dos 190 gols marcados por Roberto Dinamite no torneio, 181 foram pelo clube – os outros nove foram pela Portuguesa.</p>
+        </aside>
+    </div>
+
+    <!-- Linha com 3 colunas: cards de jogos -->
+    <div class="row text-center">
+      <div class="col-md-4">
+        <div class="card">
+          <h4 class="titulo-secao">Jogo 1</h4>
+          <p>Vasco vs Fluminense</p>
+          <p><time datetime="2025-06-01">01/06/2025</time></p>
+          <button class="botao">Ingressos</button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <h4 class="titulo-secao">Jogo 2</h4>
+          <p>Vasco vs Melgar</p>
+          <p><time datetime="2025-06-08">08/06/2025</time></p>
+          <button class="botao">Ingressos</button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <h4 class="titulo-secao">Jogo 3</h4>
+          <p>Vasco vs Internacional</p>
+          <p><time datetime="2025-06-15">15/06/2025</time></p>
+          <button class="botao">Informações</button>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Site não oficial criado por torcedor fanático do Vasco da Gama. Todos os direitos reservados.</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
